@@ -1,0 +1,10 @@
+<% if (examples) { %>
+<ul class="examples">
+  <span>Try:</span>
+  <% examples.forEach(function(example){ %>
+  <li class="example">
+    <a href="./search.html?q=<%= example %>"><%= example %></a>
+  </li>
+  <% }); %>
+</ul>
+<% } %>

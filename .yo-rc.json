@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Manish Chiniwalar",
+      "authorEmail": "yo@manishrc.com",
+      "authorUrl": "https://manishrc.com"
+    }
+  }
+}

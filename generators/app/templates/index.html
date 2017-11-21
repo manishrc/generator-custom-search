@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <%- include head.html %>
+  <body>
+    <div class="container">
+      <div class="main">
+        <form action="./search.html" id="f">
+          <h1 class="logo"><%= title %></h1>
+          <input accesskey="f" type="search" name="q" placeholder=""
+                                                      title="Enter your search term" autocomplete="off" tabindex=-1 maxlength=1000 autofocus x-webkit-speech="">
+        </form>
+        <%- include examples.html %>
+      </div>
+    </div>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <%- include ga.html %>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
